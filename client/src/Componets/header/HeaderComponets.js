@@ -8,7 +8,7 @@ const HeaderComponets = () => {
             </div>
 
             <div className="text-right flex justify-between items-center">
-                <div className="mr-4"> {/* Add margin-right for spacing */}
+                <div className="mr-4"> 
                     <h1 className="text-2xl font-serif font-bold">Welcome</h1>
                     <h1 className="text-2xl font-bold font-serif ">Aniket Kadam</h1>
                 </div>
