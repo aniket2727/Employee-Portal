@@ -5,6 +5,7 @@ import LayoutComponets from './Componets/Layout/LayoutComponets';
 import MyProfileComponets from './Componets/AboutInfo/MyProfileComponets';
 import CreatepostComponets from './Componets/Creaetepost/CreatepostComponets';
 import EmployeeSearchcomponets from './Componets/EmployeeSearch/EmployeeSearchcomponets';
+import CompanyProjectscomponets from './Componets/CompanyProjectsComponets/CompanyProjectscomponets';
 function App() {
   return (
     <div>
@@ -15,6 +16,7 @@ function App() {
           <Route path="/my-profile" element={<MyProfileComponets/>} />
           <Route path="/create-post" element={<CreatepostComponets/>} />
           <Route path="/employee-search" element={<EmployeeSearchcomponets/>} />
+          <Route path="/company-project" element={<CompanyProjectscomponets/>} />
           <Route path="/" element={<Navigate to="/login" />} />
           <Route path="*" element={<div>page not found 404</div>} />
         </Routes>
