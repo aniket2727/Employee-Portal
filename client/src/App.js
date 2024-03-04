@@ -4,6 +4,7 @@ import LoginComponents from './Componets/AuhtComponets/LoginComponets';
 import LayoutComponets from './Componets/Layout/LayoutComponets';
 import MyProfileComponets from './Componets/AboutInfo/MyProfileComponets';
 import CreatepostComponets from './Componets/Creaetepost/CreatepostComponets';
+import EmployeeSearchcomponets from './Componets/EmployeeSearch/EmployeeSearchcomponets';
 function App() {
   return (
     <div>
@@ -13,6 +14,7 @@ function App() {
           <Route path="/login" element={<LoginComponents />} />
           <Route path="/my-profile" element={<MyProfileComponets/>} />
           <Route path="/create-post" element={<CreatepostComponets/>} />
+          <Route path="/employee-search" element={<EmployeeSearchcomponets/>} />
           <Route path="/" element={<Navigate to="/login" />} />
           <Route path="*" element={<div>page not found 404</div>} />
         </Routes>
