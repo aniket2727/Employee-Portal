@@ -1,7 +1,7 @@
 import React from 'react';
 import ImageSlider from './SliderComponets';
 import OptionsColumnsComponets from './OptionsColumnsComponets';
-
+import EmployeePostComponets from './EmployeePostComponets';
 const Frontpagebody = () => {
     return (
         <div className='w-full md:w-10/12 mx-auto mt-5'>
@@ -14,6 +14,10 @@ const Frontpagebody = () => {
                 <div className='options-verticals w-full md:w-1/3 h-full border'>
                     <OptionsColumnsComponets />
                 </div>
+            </div>
+
+            <div>
+               <EmployeePostComponets/>
             </div>
         </div>
     );

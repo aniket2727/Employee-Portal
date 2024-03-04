@@ -1,9 +1,14 @@
 import React from 'react';
 
+
 const OptionsColumnsComponets = () => {
   return (
     <div className='mt-5'>
-      <h1 className='font-bold text-4xl'>Aniket Kadam</h1>
+      <div className='flex items-center'>
+        <h1 className='font-bold text-2xl'>
+          Aniket Kadam
+        </h1>
+      </div>
 
       <div className='mt-5 space-y-2'>
         <div className='flex items-center rounded-md bg-blue-200 p-3 cursor-pointer'>
