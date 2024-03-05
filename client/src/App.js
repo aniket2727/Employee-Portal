@@ -9,6 +9,8 @@ import CompanyProjectscomponets from './Componets/CompanyProjectsComponets/Compa
 import OrganizationComponets from './Componets/OrganizationsInfo/OrganizationComponets';
 import MyCompanyprojects from './Componets/MyprojectsComponets/MyCompanyprojects';
 import UpcommigprojectComponets from './Componets/Upcommingprojects/UpcommigprojectComponets';
+import CompanyManagementComponents from './Componets/Companymanagement/CompanymanagementComponets';
+import FooterComponents from './Componets/Footer/Footercoponets';
 function App() {
   return (
     <div>
@@ -22,11 +24,13 @@ function App() {
           <Route path="/employee-search" element={<EmployeeSearchcomponets/>} />
           <Route path="/company-project" element={<CompanyProjectscomponets/>} />
           <Route path="/company-project-upcommming" element={<UpcommigprojectComponets/>} />
+          <Route path="/company-management" element={<CompanyManagementComponents/>} />
           <Route path="/orgaziation" element={<OrganizationComponets/>} />
           <Route path="/" element={<Navigate to="/login" />} />
           <Route path="*" element={<div>page not found 404</div>} />
         </Routes>
       </BrowserRouter>
+      <FooterComponents/>
     </div>
   );
 }
