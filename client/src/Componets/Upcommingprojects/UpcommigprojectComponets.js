@@ -5,7 +5,7 @@ const UpcomingProjectComponents = () => {
   return (
     <>
     <HeaderComponets/>
-    <div className="mx-auto max-w-2xl p-4">
+    <div className="mx-auto max-w-2xl p-4 min-h-screen">
       <h1 className="text-3xl font-bold mb-6 text-blue-700">Upcoming Company Projects</h1>
       <div className="bg-gray-200 p-4 rounded-md mb-6">
         <p><span className="font-bold text-purple-700">Project Name:</span> Project Y</p>

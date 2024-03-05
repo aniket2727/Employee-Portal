@@ -36,7 +36,7 @@ const EmployeeSearchComponents = () => {
   return (
     <>
       <HeaderComponets />
-      <div className="flex justify-center">
+      <div className="flex items-center justify-center min-h-screen">
         <div className="bg-gradient-to-r from-blue-200 via-blue-300 to-blue-400 p-8 rounded-md w-1/2 flex-shrink-0 shadow-lg">
           {/* Gradient background with shades of blue */}
           <h1 className="text-3xl font-bold mb-4 text-white">Employee Search</h1>
