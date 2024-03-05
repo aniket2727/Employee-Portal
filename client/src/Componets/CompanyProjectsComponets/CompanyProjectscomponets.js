@@ -25,15 +25,15 @@ const CompanyProjectscomponets = () => {
                             <li>Development Center: Bangalore, India</li>s
                         </ul>
                     </p>
-                    {/* Add more company details as needed */}
+                  
                 </div>
 
                 <div className="bg-gray-200 p-4 rounded-md">
-                    {/* Project details */}
+                   
                     <h2 className="text-xl font-semibold mb-4  bg-red-500 rounded-md w-25">Project Details</h2>
                     <p><span className="font-bold">Project Name:</span> MERN STACK Development</p>
                     <p><span className="font-bold">Description:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    {/* Add more project details as needed */}
+                 
                 </div>
             </div>
         </>

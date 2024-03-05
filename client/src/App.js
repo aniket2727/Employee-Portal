@@ -7,6 +7,7 @@ import CreatepostComponets from './Componets/Creaetepost/CreatepostComponets';
 import EmployeeSearchcomponets from './Componets/EmployeeSearch/EmployeeSearchcomponets';
 import CompanyProjectscomponets from './Componets/CompanyProjectsComponets/CompanyProjectscomponets';
 import OrganizationComponets from './Componets/OrganizationsInfo/OrganizationComponets';
+import MyCompanyprojects from './Componets/MyprojectsComponets/MyCompanyprojects';
 function App() {
   return (
     <div>
@@ -15,6 +16,7 @@ function App() {
           <Route path="/my-account" element={<LayoutComponets />} />
           <Route path="/login" element={<LoginComponents />} />
           <Route path="/my-profile" element={<MyProfileComponets/>} />
+          <Route path="/my-projects" element={<MyCompanyprojects/>} />
           <Route path="/create-post" element={<CreatepostComponets/>} />
           <Route path="/employee-search" element={<EmployeeSearchcomponets/>} />
           <Route path="/company-project" element={<CompanyProjectscomponets/>} />
