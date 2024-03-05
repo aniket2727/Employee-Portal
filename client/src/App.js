@@ -13,6 +13,7 @@ import CompanyManagementComponents from './Componets/Companymanagement/Companyma
 import HelpComponents from './Componets/Help/HelpComponets';
 import AddEmployeedataComponets from './AdminComponets/AddEmployeedataComponets';
 import Adminhomecomponets from './AdminComponets/Adminhomecomponets';
+import AdminUpdateUserComponents from './AdminComponets/Adminupdateusercomponets';
 import FooterComponents from './Componets/Footer/Footercoponets';
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path="/orgaziation" element={<OrganizationComponets/>} />
           <Route path="/admin-addemployee" element={<AddEmployeedataComponets/>} />
           <Route path="/admin-portal" element={<Adminhomecomponets/>} />
+          <Route path="/admin-user-profile-update" element={<AdminUpdateUserComponents/>} />
           <Route path="/help" element={<HelpComponents/>} />
           <Route path="/" element={<Navigate to="/login" />} />
           <Route path="*" element={<div>page not found 404</div>} />
