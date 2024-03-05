@@ -12,6 +12,7 @@ import UpcommigprojectComponets from './Componets/Upcommingprojects/Upcommigproj
 import CompanyManagementComponents from './Componets/Companymanagement/CompanymanagementComponets';
 import HelpComponents from './Componets/Help/HelpComponets';
 import AddEmployeedataComponets from './AdminComponets/AddEmployeedataComponets';
+import Adminhomecomponets from './AdminComponets/Adminhomecomponets';
 import FooterComponents from './Componets/Footer/Footercoponets';
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/company-management" element={<CompanyManagementComponents/>} />
           <Route path="/orgaziation" element={<OrganizationComponets/>} />
           <Route path="/admin-addemployee" element={<AddEmployeedataComponets/>} />
+          <Route path="/admin-portal" element={<Adminhomecomponets/>} />
           <Route path="/help" element={<HelpComponents/>} />
           <Route path="/" element={<Navigate to="/login" />} />
           <Route path="*" element={<div>page not found 404</div>} />
