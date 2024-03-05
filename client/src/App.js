@@ -8,6 +8,7 @@ import EmployeeSearchcomponets from './Componets/EmployeeSearch/EmployeeSearchco
 import CompanyProjectscomponets from './Componets/CompanyProjectsComponets/CompanyProjectscomponets';
 import OrganizationComponets from './Componets/OrganizationsInfo/OrganizationComponets';
 import MyCompanyprojects from './Componets/MyprojectsComponets/MyCompanyprojects';
+import UpcommigprojectComponets from './Componets/Upcommingprojects/UpcommigprojectComponets';
 function App() {
   return (
     <div>
@@ -20,6 +21,7 @@ function App() {
           <Route path="/create-post" element={<CreatepostComponets/>} />
           <Route path="/employee-search" element={<EmployeeSearchcomponets/>} />
           <Route path="/company-project" element={<CompanyProjectscomponets/>} />
+          <Route path="/company-project-upcommming" element={<UpcommigprojectComponets/>} />
           <Route path="/orgaziation" element={<OrganizationComponets/>} />
           <Route path="/" element={<Navigate to="/login" />} />
           <Route path="*" element={<div>page not found 404</div>} />
